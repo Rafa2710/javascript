@@ -35,5 +35,6 @@ document.getElementsByTagName("button")[0].innerHTML =
     dividir +
     "<br>resto: " +
     resto;
+    
 }
     

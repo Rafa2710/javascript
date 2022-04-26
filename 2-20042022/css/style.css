@@ -1,0 +1,31 @@
+#miniatura {
+  position: fixed;
+  bottom: 0px;
+  width: 80%;
+  margin-left: 7%;
+  margin-right: auto;
+  text-align: center;
+}
+#miniatura img {
+  width: 100px;
+  height: 80px;
+  cursor: pointer;
+  margin: 10px;
+  transition: ease 0.5s;
+}
+#miniatura img:hover {
+  transform: scale(1.1);
+}
+
+#painel {
+  display: fixed;
+  top: 0;
+  left: 0;
+  width: 900px;
+  height: 800px;
+  margin-left: 20%;
+}
+
+#painel img {
+  width: 100%;
+}
