@@ -18,9 +18,11 @@
 ```
 
 outro exemplo de apresentação do Javascript
-'''html
+```html
 <html>
-   <head><title><exemplo></title></head>
+   <head>
+       <title>exemplo</title>
+       </head>
     <body>
     <script>
         console.log("Hello, world!");
@@ -28,4 +30,4 @@ outro exemplo de apresentação do Javascript
         </body>
         </html>
 
-''''
+```
