@@ -16,3 +16,16 @@
 ```javascript
 <script>alert("Olá Mundo!");</script>
 ```
+
+outro exemplo de apresentação do Javascript
+'''html
+<html>
+   <head><title><exemplo></title></head>
+    <body>
+    <script>
+        console.log("Hello, world!");
+        </script>
+        </body>
+        </html>
+
+''''
