@@ -1,0 +1,16 @@
+{
+  "name": "test-ra-senac",
+  "version": "1.0.2",
+  "description": "primeiro modeulo em nodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "estudo",
+    "funcoes"
+  ],
+  "author": "Rafael Costa",
+  "license": "ISC"
+}
