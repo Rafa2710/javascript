@@ -64,7 +64,7 @@ para atualizar precisaremos de 2 informaçoes. a primeira é o id do dado que vo
 e a segunda, sao os dados qeu deseja atualizar. */
 
 app.put("/atualizar/:id",(req,res)=>{
-    clientes.findByIdAndUpdate(req,params.id,body,{new:true},(erro,dados)=>{
+    clientes.findByIdAndUpdate(req,params.id,req.body,{new:true},(erro,dados)=>{
         if(erro)return res.status(400).send({output:`erro ao autalizar-> ${erro}`});
         res.status(200).send({output:`autalizado`, info:dados});
 
