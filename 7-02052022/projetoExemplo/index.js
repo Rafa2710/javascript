@@ -72,7 +72,11 @@ app.put("/atualizar/:id",(req,res)=>{
 });
 /*para deletar um dado iremos usar o verbo DELETE passando o id do */
 app.delete("/apagar/:id",(req,res)=>{
-    res.status(204).send({output: `Apagou`});
+   clientes.findByIdAndDelete(req.params.id,(erro,dados)=>{
+       if(erro)return res.status(500).send({output:`erro ao apagar-> ${erro}`});
+       res.status(204).send({output:"Apagou"});
+
+   });
 });
 
 
